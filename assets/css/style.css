@@ -101,10 +101,12 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+/* the following 3 groups of css styles regarding benefit class h3's were removed as they are redundant. */
+
+/* .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} 
 
 .benefit-brand h3 {
     margin-bottom: 10px;
@@ -114,7 +116,16 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+} */
+
+/* I applied the prior styling to just the benefit class h3 tags as they will still apply to the correct html without having more css groups than needed */
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
+
+
 
 .benefit-lead img {
     display: block;
