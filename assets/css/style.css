@@ -127,7 +127,15 @@ p {
     text-align: center;
 }
 
+.benefits img {
+    display:block;
+    margin: 10px auto;
+    max-width: 150px;
+}
 
+
+/*
+removed below selectors and added above selector to cover all 3 
 
 .benefit-lead img {
     display: block;
@@ -146,7 +154,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
